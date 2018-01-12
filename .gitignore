@@ -13,9 +13,9 @@
 
 # Ignore all logfiles and tempfiles.
 ./log/*
+!./log/.keep
 ./tmp/*
-./log/.*
-./tmp/.*
+!./tmp/.keep
 
 /node_modules
 /yarn-error.log
