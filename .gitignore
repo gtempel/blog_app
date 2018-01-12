@@ -21,7 +21,3 @@
 /yarn-error.log
 
 .byebug_history
-log/.keep
-log/development.log
-tmp/.keep
-tmp/restart.txt
