@@ -14,10 +14,11 @@
 # Ignore all logfiles and tempfiles.
 ./log/*
 ./tmp/*
-!/log/.keep
-!/tmp/.keep
+./log/.*
+./tmp/.*
 
 /node_modules
 /yarn-error.log
 
 .byebug_history
+log/.keep
